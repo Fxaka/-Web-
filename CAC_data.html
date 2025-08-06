@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Computer Assembly Club - Data Page</title>
+    <link rel="icon" href="./images/brand.png" type="image/png"> <!-- Favicon -->
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.staticfile.net/twitter-bootstrap/5.1.1/css/bootstrap.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./CSS/unit.css">
+    <link rel="stylesheet" href="./CSS/data.css">
+    <link rel="stylesheet" href="./CSS/nav.css">
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <!-- Main container START -->
+    <div class="container-fluid">
+        
+        <!-- CAC Header START -->
+        <div class="row">
+            <div class="col-12">
+                <div class="CAC-header-custom">
+                    <nav class="navbar navbar-dark navbar-expand-lg bg-body-tertiary">
+                        <div class="container-fluid">
+                            <a class="navbar-brand link-light" href="#">
+                                <img class="brand-img" src="./images/brand.png" alt="brand">
+                                Computer Assembly Club
+                            </a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                                <div class="offcanvas-header header-color">
+                                    <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Computer Assembly Club</h5>
+                                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body body-color">
+                                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                        <li class="nav-item">
+                                            <a class="nav-link link-light" href="./index.html">Home</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link link-light" href="./CAC_gallery.html">Gallery</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link link-light" href="./CAC_tools.html">Form</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link link-light active" aria-current="page" href="#">Events</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!-- CAC Header END -->
+
+        <!-- CAC Filter START -->
+        <div class="row">  
+            <div class="col-12">  
+                <div class="CAC-filter-custom">  
+                    <div id="filters">  
+                        <label for="search">Search:</label>  
+                        <input type="text" id="search" placeholder="Enter keywords to search...">  
+
+                        <label for="info-type">Info Type:</label>  
+                        <select id="info-type">  
+                            <option value="">All</option>  
+                            <option value="Transaction Info">Transaction Info</option>  
+                            <option value="Event Info">Event Info</option>  
+                        </select>  
+
+                        <label for="sort-time">Event Date:</label>  
+                        <select id="sort-time">  
+                            <option value="">Default Sort</option>  
+                            <option value="new-to-old">New to Old</option>  
+                            <option value="old-to-new">Old to New</option>  
+                        </select>  
+
+                        <label for="location">Location:</label>  
+                        <select id="location">  
+                            <option value="">All</option>  
+                            <option value="Campus A">Campus A</option>  
+                            <option value="Campus B">Campus B</option>  
+                        </select>  
+                        <button id="load-data-btn">Load data</button>
+                    </div>  
+                </div>  
+            </div>  
+        </div>  
+        <!-- CAC Filter END -->
+
+        <!-- CAC Items Container START -->
+        <div class="row g-2" id="cac-items-container">
+            <!-- Dynamically loaded items will be appended here -->
+        </div>
+        <!-- CAC Items Container END -->
+
+        <!-- CAC Footer START -->
+        <div class="row">
+            <div class="col-12">
+                <div class="CAC-footer-custom">
+                    <p>Footer</p>
+                </div>
+            </div>
+        </div>
+        <!-- CAC Footer END -->
+    </div>
+    <!-- Main Container END -->
+
+    
+  
+
+    <!-- Custom JS -->
+    <script src="./JS/load-data.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.staticfile.net/twitter-bootstrap/5.1.1/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

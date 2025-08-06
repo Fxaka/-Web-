@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Computer Assembly Club - Function Page</title>
+    <link rel="icon" href="./images/brand.png" type="image/png"> <!-- Favicon -->
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.staticfile.net/twitter-bootstrap/5.1.1/css/bootstrap.min.css">
+
+    <!-- My CSS  -->
+    <link rel="stylesheet" href="./CSS/unit.css">
+    <link rel="stylesheet" href="./CSS/tools.css">
+    <link rel="stylesheet" href="./CSS/nav.css">
+</head>
+
+<body>
+
+    <!-- Main container START -->
+    <div class="container-fluid">
+
+        <!--CAC header START***************************** -->
+
+        <div class="row">
+            <div class="col-12">
+                <div class="CAC-header-custom">
+                    <nav class="navbar navbar-dark navbar-expand-lg bg-body-tertiary">
+                        <div class="container-fluid">
+                            <a class="navbar-brand link-light" href="#">
+                                <img class="brand-img" src="./images/brand.png" alt="brand">
+                                Computer Assembly Club
+                            </a>
+                            <button class="navbar-toggler " type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
+                                aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                                aria-labelledby="offcanvasDarkNavbarLabel">
+                                <div class="offcanvas-header header-color">
+                                    <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Computer Assembly Club
+                                    </h5>
+                                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body body-color">
+                                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                        <li class="nav-item">
+                                            <a class="nav-link link-light" href="./index.html">Home</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link link-light" href="./CAC_gallery.html">Gallery</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link link-light active" aria-current="page" href="#">Form</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link link-light" href="./CAC_data.html">Events</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+        <!-- CAC header END !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+
+        <!-- CAC Introduction START*********************** -->
+
+        <div class="row">
+            <div class="col-12">
+                <div class="CAC-introduction-custom">
+                    <p>Introduction</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- CAC Introduction END!!!!!!!!!!!!!!!!!!!!!!!!! -->
+
+
+        <!-- CAC forms start -->
+        <div class="row g-2">
+            <!-- groupa a1 a2  Calc start-->
+            <div class="col-12 col-lg-6">
+                <div class="CAC-explanation-custom ga1 mb-2">
+                    Calc explanation area
+                </div>
+                <div class="CAC-form-custom ga2">
+                    <form id="hardwareForm">
+                        <!-- hardware area start-->
+                        <fieldset>
+                            <legend>Hardware</legend>
+                            <!-- CPU -->
+                            <label>
+                                CPU:
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input
+                                    type="text" name="CPU-P" placeholder="Enter price here">
+                            </label>
+                            Quantity select:
+                            <select name="CPU-Q" class="quantity">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </select>
+                            <br>
+                            <!-- cooler -->
+                            <label>
+                                Cooler:
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="Coller-P"
+                                    placeholder="Enter price here">
+                            </label>
+                            Quantity select:
+                            <select name="Coller-Q" class="quantity">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </select>
+                            <br>
+                            <!-- Chassis -->
+                            <label>
+                                Chassis:
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text"
+                                    name="Chassis-P" placeholder="Enter price here">
+                            </label>
+                            Quantity select:
+                            <select name="Chassis-Q" class="quantity">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select>
+                            <br>
+                            <!-- Memory -->
+                            <label>
+                                Memory:
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="Memory-P"
+                                    placeholder="Enter price here">
+                            </label>
+                            Quantity select:
+                            <select name="Memory-Q" class="quantity">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </select>
+                            <br>
+                            <!-- Motherboard -->
+                            <label>
+                                Motherboard:
+                                &nbsp;<input type="text" name="MB-P" placeholder="Enter price here">
+                            </label>
+                            Quantity select:
+                            <select name="MB-Q" class="quantity">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select>
+                            <br>
+                            <!-- power supply -->
+                            <label>
+                                Power Supply:
+                                &nbsp;<input type="text" name="PS-P" placeholder="Enter price here">
+                            </label>
+                            Quantity select:
+                            <select name="PS-Q" class="quantity">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select>
+                            <br>
+                            <button type="submit" id="calculateButton" class="calculate">Calculate</button>
+                            <button type="reset">Reset</button>
+                        </fieldset>
+                        <!-- hardware area end -->
+
+                        <!-- external device start -->
+                        <fieldset>
+                            <legend>External Device</legend>
+                            <label>
+                                Mouse: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="Mouse-P"
+                                    placeholder="Enter price here">
+                            </label>
+                            <br>
+                            <label>
+                                Monitor: &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="Monitor-P"
+                                    placeholder="Enter price here">
+                            </label>
+                            <br>
+                            <label>
+                                Keyboard: &nbsp;&nbsp;<input type="text" name="Key-P" placeholder="Enter price here">
+                            </label>
+                            <br>
+                            <button type="submit" id="calculateButton" class="calculate">Calculate</button>
+                            <button type="reset">Reset</button>
+                        </fieldset>
+                        <!-- external device end -->
+
+                        <!-- Total start -->
+                        <fieldset id="totalSection">
+                            <legend>Total</legend>
+                            <p id="hardwareTotal">Total of Hardware: $0.00</p>
+                            <p id="externalDeviceTotal">Total of External Device: $0.00</p>
+                            <p id="grandTotal">Toatal of all above: $0.00</p>
+                        </fieldset>
+                        <!-- Toatl end -->
+                    </form>
+                </div>
+            </div>
+            <!-- groupa a1 a2  Calc end -->
+
+            <!-- groupb b1 b2 Conditional start-->
+            <div class="col-12 col-lg-6">
+                <div class="CAC-explanation-custom gb1 mb-2">
+                    Conditional explanation area
+                </div>
+                <div class="CAC-form-custom gb2">
+                    <form action="#" onsubmit="return successAlert()">
+                        <!-- Basic Information -->
+                        <fieldset>
+                            <legend>Basic Information</legend>
+                            <label>
+                                Name: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="uname"
+                                    placeholder="Enter name here" required>
+                            </label>
+                            <br>
+                            <label>
+                                Phone: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="phone"
+                                    placeholder="Enter your phone here" required>
+                            </label>
+                            <br>
+                            <label>
+                                Student ID: &nbsp;<input type="text" name="sid" placeholder="Enter Student ID here"
+                                    required>
+                            </label>
+                        </fieldset>
+                        <!-- Swap -->
+                        <fieldset>
+                            <legend>Swap</legend>
+                            <div class="select-hd">
+                                <span>Which sort of Hardware that you are going to swap?</span><br>
+                                <input type="checkbox" name="hardware" value="Memory">Memory
+                                <input type="checkbox" name="hardware" value="Motherboard">Motherboard
+                                <input type="checkbox" name="hardware" value="CPU">CPU<br>
+                                <input type="checkbox" name="hardware" value="Power Supply">Power Supply
+                                <input type="checkbox" name="hardware" value="Chassis">Chassis
+                                <input type="checkbox" name="hardware" value="Cooler">Cooler
+                            </div>
+                            <div class="select-cmp">
+                                <span>Which compus that you want to go?</span><br>
+                                <input type="radio" name="compus" value="jinghu">JingHu
+                                <input type="radio" name="compus" value="jishan">JiShan
+                                <br>
+                            </div>
+                            <div class="select-date">
+                                <span>Please choose a date for swap activities:</span><br>
+                                <input type="date">
+                            </div>
+                        </fieldset>
+                        <!-- Events -->
+                        <fieldset>
+                            <legend>Events</legend>
+                            <div class="select-ty">
+                                <span>What kind of event that you are intrested in?</span><br>
+                                <select name="events">
+                                    <option value="">Computer literacy lectures</option>
+                                    <option value="">Hands-on computer assembly activities</option>
+                                    <option value="">Off-campus computer assembly competition</option>
+                                </select>
+                            </div>
+                            <div class="select-date">
+                                <span>Please choose a date for event:</span><br>
+                                <input type="date">
+                            </div>
+                        </fieldset>
+                        <button type="submit">Submit</button>
+                        <button type="reset">Reset</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- groupb b1 b2 Conditional end-->
+
+        <!-- CAC forms end -->
+
+
+        <!-- CAC Footer START *****************************-->
+
+        <div class="row">
+            <div class="col-12">
+                <div class="CAC-footer-custom">
+                    <p>Footer</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- CAC Footer END !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+
+    </div>
+    <!-- Main container END -->
+
+
+
+    <!-- for calculation -->
+    <script src="./JS/tools-Calc.js"></script>
+
+    <!-- for target and notification -->
+    <script src="./JS/tools-target&notification.js"></script>
+
+    <!-- Bootstrap and Popper.js scripts -->
+    <script src="https://cdn.staticfile.net/twitter-bootstrap/5.1.1/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

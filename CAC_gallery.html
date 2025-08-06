@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Assembly Club - gallery</title>
+    <link rel="icon" href="./images/brand.png" type="image/png"> <!-- Favicon -->
+    <!-- Open Graph Meta Tags for Social Media Sharing -->
+    <meta property="og:title" content="These are the pictures and photos that we take during CAC activities!">
+
+    <meta property="og:description" content="We offer a platform for learning computer assembly and regularly host offline activities 
+
+    like seminars and training. Whether you're a novice or expert, there's something for you!">
+
+    <meta property="og:image" content="http://www.CACZYU.com/images/gallery.jpg">
+
+    <meta property="og:type" content="website">
+
+    <meta property="og:url" content="http://www.CACZYU.com/CAC-gallery">
+
+    <!--  Meta Keywords (for SEO) -->
+    <meta name="keywords" content="ZYU Computer Assembly Event Showcase, ZYU Computer Assembly Lecture, 
+    Campus Computer Assembly Knowledge Lecture, ZYU Computer Hardware Exchange Event">
+
+    <!-- Robots Meta Tag -->
+    <meta name="robots" content="index, follow / nofollow">
+
+    <!-- Meta Description (for Search Engine Results) -->
+    <meta name="description" content="Discover the captivating moments we captured during ZYU's Computer Assembly Club (CAC) activities! 
+    From thrilling hardware assemblies to insightful lectures, our photos and pictures reveal the excitement, 
+    learning, and camaraderie that make these events unforgettable. Join us and be part of the action!">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.staticfile.net/twitter-bootstrap/5.1.1/css/bootstrap.min.css">
+
+    <!-- lightbox CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- My CSS  -->
+    <link rel="stylesheet" href="./CSS/unit.css">
+    <link rel="stylesheet" href="./CSS/gallery.css">
+    <link rel="stylesheet" href="./CSS/nav.css">
+</head>
+
+<body>
+    <!-- Main container START -->
+    <div class="container-fluid">
+
+        <!-- CAC header Start***************************** -->
+        <div class="row">
+            <div class="col-12">
+                <div class="CAC-header-custom">
+                    <nav class="navbar navbar-dark navbar-expand-lg bg-body-tertiary">
+                        <div class="container-fluid">
+                            <a class="navbar-brand link-light" href="#">
+                                <img class="brand-img" src="./images/brand.png" alt="brand">
+                                Computer Assembly Club
+                            </a>
+                            <button class="navbar-toggler " type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
+                                aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                                aria-labelledby="offcanvasDarkNavbarLabel">
+                                <div class="offcanvas-header header-color">
+                                    <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Computer Assembly Club
+                                    </h5>
+                                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body body-color">
+                                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                        <li class="nav-item">
+                                            <a class="nav-link link-light" href="./index.html">Home</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link link-light active" aria-current="page"
+                                                href="#">Gallery</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link link-light" href="./CAC_tools.html">Form</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link link-light" href="./CAC_data.html">Events</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!-- CAC header END    !!!!!!!!!!!!!!!!!!!!!!!!! -->
+
+
+        <!-- CAC welcome START *************************** -->
+        <div class="row">
+            <div class="clo-12">
+                <div class="CAC-slogan-custom">
+                    <p>Welcome Slogan</p>
+                </div>
+            </div>
+        </div>
+        <!-- CAC welcome END !!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+
+        <!-- CAC images filter start-->
+        <div class="row">
+            <div class="col-12 text-white text-center">
+                <div class="img-change">
+                    <button class="btn m-2" onclick="filterSelection('all')">Show All</button>
+                    <button class="btn m-2" onclick="filterSelection('activities')">Show Activities Gallery</button>
+                    <button class="btn m-2" onclick="filterSelection('works')">Show Works Gallery</button>
+                </div>
+            </div>
+        </div>
+        <!-- CAC images filter end -->
+
+        <!-- CAC images START **************************** -->
+        <div class="row g-2 mt-3 gallery-activities">
+            <div class="col-12 col-lg-4">
+                <div class="CAC-img-custom">
+                    <a href="./images/active1.png" data-lightbox="gallery" data-title="Students are assembling">
+                        <img src="./images/thumb-active1.png" alt="Students are assembling">
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4">
+                <div class="CAC-img-custom">
+                    <a href="./images/active2.png" data-lightbox="gallery" data-title="Students are assembling">
+                        <img src="./images/thumb-active2.jpg" alt="Students are assembling">
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4">
+                <div class="CAC-img-custom">
+                    <a href="./images/active3.png" data-lightbox="gallery" data-title="Students are assembling">
+                        <img src="./images/thumb-active3.png" alt="Students are assembling">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row g-2 mt-3 gallery-works">
+            <div class="col-12 col-lg-4">
+                <div class="CAC-img-custom">
+                    <a href="./images/student-img1.png" data-lightbox="gallery" data-title="work of student">
+                        <img src="./images/thumb-student-img1.jpg" alt="work of student">
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4">
+                <div class="CAC-img-custom">
+                    <a href="./images/student-img2.jpg" data-lightbox="gallery" data-title="work of student">
+                        <img src="./images/thumb-student-img2.png" alt="work of student">
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4">
+                <div class="CAC-img-custom">
+                    <a href="./images/student-img3.jpg" data-lightbox="gallery" data-title="work of student">
+                        <img src="./images/thumb-student-img3.png" alt="work of student">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- CAC images END !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+
+
+        <!-- CAC footer START ***************************** -->
+
+        <div class="row">
+            <div class="col-12">
+                <div class="CAC-footer-custom">
+                    <p>Footer</p>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- CAC footer END !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+
+
+        <!-- Main container END -->
+    </div>
+
+
+    <!-- gallery lightbox -->
+    <script src="./JS/gallery-lb.js"></script>
+    
+    <!-- Bootstrap and Popper.js scripts -->
+    <script src="https://cdn.staticfile.net/twitter-bootstrap/5.1.1/js/bootstrap.bundle.min.js"></script>
+
+    <!-- lightbox Scripts Start***************************** -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+</body>
+
+</html>
