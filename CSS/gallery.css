@@ -1,0 +1,74 @@
+.row {
+    margin-bottom: 15px;
+    border: 1px solid #000000; 
+      
+}
+
+
+/* Main Blocks CSS START *************** */
+
+
+/* Change the names *************** */
+.CAC-header-custom {
+    background-color:  rgb(13, 71, 123);
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 1rem;    
+}
+
+
+.CAC-slogan-custom{
+    background-color:rgb(20, 105, 185);
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    padding: 1rem;
+}
+
+/* #region img filter and display */
+.img-change{
+    padding: 1rem;
+    background-color:rgb(32, 132, 222);
+}
+
+.img-change button{
+    background-color:  rgb(248, 170, 23);
+    color: black;
+    font-size: 1rem;
+}
+
+.img-change button:hover{
+    background-color: white;
+    box-shadow: 00px 0px 20px orange inset;
+}
+
+.CAC-img-custom{
+    height: 400px;
+    background-color: rgb(254, 168, 10);
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    padding: 0;
+}
+
+.CAC-img-custom img{
+    height: 400px;
+    width: 100%;
+}
+/* #endregion img filter and display */
+
+.CAC-footer-custom {
+    height: 70px;
+    background-color:  rgb(13, 71, 123);
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    padding: 1rem;    
+}
+
+
+/* Block CSS  END */

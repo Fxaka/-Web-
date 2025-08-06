@@ -1,0 +1,58 @@
+{
+    "info": [
+        {
+            "type": "Transaction Info",
+            "time": "2023-10-05",
+            "location": "Campus A",
+            "details": "Used graphics card transaction, discounted price, high performance for gaming."
+        },
+        {
+            "type": "Event Info",
+            "time": "2023-10-10",
+            "location": "Campus B",
+            "details": "Computer assembly competition, open to all enthusiasts. Prizes for winners!"
+        },
+        {
+            "type": "Transaction Info",
+            "time": "2023-09-20",
+            "location": "Campus A",
+            "details": "Brand new mechanical keyboard for sale, great tactile feedback and build quality."
+        },
+        {
+            "type": "Event Info",
+            "time": "2023-10-15",
+            "location": "Campus A",
+            "details": "Free computer maintenance lecture, covers troubleshooting and repair tips."
+        },
+        {
+            "type": "Event Info",
+            "time": "2023-11-01",
+            "location": "Campus B",
+            "details": "Workshop on optimizing computer performance, including hardware upgrades."
+        },
+        {
+            "type": "Transaction Info",
+            "time": "2023-11-05",
+            "location": "Campus B",
+            "details": "High-quality monitors available at discounted prices, limited stock."
+        },
+        {
+            "type": "Event Info",
+            "time": "2023-12-12",
+            "location": "Campus A",
+            "details": "Hands-on coding workshop focused on building web applications from scratch."
+        },
+        {
+            "type": "Transaction Info",
+            "time": "2023-12-20",
+            "location": "Campus B",
+            "details": "Refurbished laptops available, budget-friendly, with a six-month warranty."
+        },
+        {
+            "type": "Event Info",
+            "time": "2024-01-05",
+            "location": "Campus A",
+            "details": "Annual tech fair featuring the latest hardware and software demos."
+        }
+    ]
+}

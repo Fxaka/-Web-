@@ -1,0 +1,9 @@
+#funButton {
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.random-box {
+    position: absolute;
+    border-radius: 8px;
+}

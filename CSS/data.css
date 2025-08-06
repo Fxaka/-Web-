@@ -1,0 +1,99 @@
+.row {
+    margin-bottom: 15px;
+    border: 1px solid #000000; 
+      
+}
+
+
+/* Main Blocks CSS START *************** */
+
+
+/* Change the names *************** */
+.CAC-header-custom {
+    background-color:  rgb(13, 71, 123);
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    padding: 1rem;    
+}
+
+
+.CAC-search-custom{
+    background-color:rgb(20, 105, 185);
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    padding: 1rem;
+}
+
+#search{
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+/* #region load-data-btn */
+#load-data-btn{
+    color: white;
+    background-color: transparent;
+    border: 1px solid #A1C7E0;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-left: 6px;
+    margin-bottom: 5px;
+    box-shadow: 0px 6px rgb(19, 106, 185,0.5);
+    transition: 0.3s all;
+}
+
+#load-data-btn:hover{
+    background-color: rgb(254, 168, 10);
+    color: white;
+}
+
+#load-data-btn:active{
+    box-shadow: 0 4px rgb(19, 106, 185);
+    transform: translateY(4px);
+}
+/* #endregion load-data-btn */
+
+.CAC-filter-custom{
+    background-color: rgb(19, 124, 193);
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    padding: 1rem;
+}
+.CAC-item-custom{
+    height: 250px;
+    border: 1px solid black;
+    background-color: rgb(254, 168, 10);
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+#cac-items-container a{
+    text-decoration: none;
+}
+
+#cac-items-container a:hover{
+   color: #000000;
+
+}
+
+.CAC-footer-custom {
+    background-color:  rgb(13, 71, 123);
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    padding: 1rem;    
+}
+
+/* Block CSS  END */

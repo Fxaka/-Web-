@@ -1,0 +1,83 @@
+/* Whole page CSS Start******************** */
+
+/* Mobile-first default styles */
+html {
+    font-family: 'Arial', sans-serif;   
+    font-size: 14px;
+   
+    /* Smaller base font size for mobile */
+}
+
+body {
+    font-size: 1rem;
+    }
+
+.row {
+    margin-bottom: 10px;
+    border: 3px solid white;
+    
+}
+
+h1,
+.h1 {
+    font-size: 2rem;   
+}
+
+h2,
+.h2 {
+    font-size: 1.75rem; 
+}
+
+p {
+    font-size: 1rem;    
+}
+
+/* Whole Page Media Quearies Starts  */
+/* Tablet and larger devices */
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+               
+    }
+
+    .row {
+        margin-bottom: 15px;
+        border: 2px solid white;       
+    }
+
+    h1,
+    .h1 {
+        font-size: 2.5rem;       
+        }
+
+    h2,
+    .h2 {
+        font-size: 2rem;      
+    }
+
+   
+}
+
+/* Desktop and larger devices */
+@media (min-width: 1024px) {
+    .row {
+        margin-bottom: 20px;
+       
+    }
+
+    h1,
+    .h1 {
+        font-size: 1.5rem;
+            }
+
+    h2,
+    .h2 {
+        font-size: 1rem;       
+    }
+
+ 
+}
+
+/* Whole Page Media Quearies ENDS  */
+
+/* Whole page CSS END!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */

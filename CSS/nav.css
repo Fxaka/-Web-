@@ -1,0 +1,21 @@
+.brand-img{
+    height: 2rem;
+    padding-right: 1rem;
+}
+
+.header-color{
+    background-color: rgb(55, 65, 81);
+}
+
+.body-color{
+    background-color: rgb(13, 71, 123);
+}
+
+nav ul{
+    font-size: 1.5rem;
+    color: white;
+}
+
+.navbar-brand{
+    font-size: 1.5rem;
+}

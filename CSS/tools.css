@@ -1,0 +1,112 @@
+.row {
+    margin-bottom: 15px;
+    border: 1px solid #000000; 
+      
+}
+
+
+/* Main Blocks CSS START *************** */
+
+
+/* Change the names *************** */
+.CAC-header-custom {
+    background-color:  rgb(13, 71, 123);
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5rem;
+    padding: 1rem;    
+}
+
+.CAC-introduction-custom{
+    background-color: rgb(20, 105, 185);
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    padding: 1rem;
+}
+
+.CAC-explanation-custom{
+    background-color:rgb(19, 124, 193);
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    padding: 1rem;
+}
+
+/* #region CAC form start */
+.CAC-form-custom{
+    height: auto;
+    background-color: rgb(254, 168, 10);
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+}
+
+.CAC-form-custom form{
+   border: 1px solid black;
+   padding-left: 0;
+   height: 820px;
+}
+
+.CAC-form-custom form fieldset{
+    background-color: rgb(254, 168, 10);
+    color: #000000;
+}
+
+.CAC-form-custom form fieldset .select-hd, 
+.CAC-form-custom form fieldset .select-cmp, 
+.CAC-form-custom form fieldset .select-ty,
+.CAC-form-custom form fieldset .select-date {
+    border: 2px solid black;
+    border-radius: 4px;
+    padding-bottom: 10px;
+    margin: 15px 5px;
+    background-color: rgb(255, 179, 100);
+}
+
+.CAC-form-custom form legend{
+    border: 1px solid black;
+    background-color: rgb(190, 100, 5);
+    color: azure;
+    text-align: center;
+}
+
+.CAC-form-custom form input{
+    padding: 2px;
+    margin-bottom: 6px;
+}
+
+.CAC-form-custom form p{
+    font-size: 1.5rem;
+    background-color: rgb(255, 135, 9);
+    color: white;
+}
+
+.CAC-form-custom form button{
+    border-radius: 4px;
+    color: white;
+    background-color: rgb(190, 125, 5);
+    margin-bottom: 8px;
+    margin-right: 5px;
+    margin-top: 8px;
+}
+/* #endregion CAC form end */
+
+.CAC-footer-custom {
+    background-color:  rgb(13, 71, 123);
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    padding: 1rem;    
+}
+
+/* Block CSS  END */
+
+
+
+

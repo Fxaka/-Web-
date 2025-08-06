@@ -1,0 +1,62 @@
+.high-contrast {
+  /* Change background and text color */
+  --bs-body-bg: #1a1a1a !important; /* Dark gray background for softer contrast */
+  --bs-body-color: #eaeaea !important; /* Light gray text color */
+  --bs-link-color: #00bfff !important; /* Bright blue for clearer links */
+
+  /* Set larger font size and line spacing */
+  font-size: 2rem !important;
+  line-height: 1.8 !important;
+
+  /* All elements inherit the larger base font */
+  * {
+      font-size: inherit;
+      line-height: inherit;
+  }
+
+  /* Navbar and specific elements color and size adjustments */
+  .navbar-brand,
+  .nav-link {
+      font-size: 2rem !important;
+      color: #f4a261 !important; /* Orange color for navigation links */
+  }
+
+  /* Headings and content color and font enlargement */
+  h1, h2, h3 {
+      font-size: 1.5em !important;
+      color: #ffdd57 !important; /* Bright yellow for headings */
+  }
+  p, li {
+      font-size: 1.45rem !important;
+      color: #ffffff !important; /* White color for main text */
+  }
+
+  /* Button contrast and size adjustments */
+  .btn, #funButton, #HC-btn {
+      background-color: #333 !important; /* Darker button background */
+      color: #ff6f61 !important; /* Bright orange-red for button text */
+      border: 2px solid #ff6f61 !important; /* Border color for added contrast */
+      padding: 0.75em 1.5em !important;
+      font-size: 1.1rem !important;
+  }
+
+  /* Higher contrast for primary sections with background and border */
+  .CAC-header,
+  .CAC-welcome,
+  .CAC-description,
+  footer {
+      background-color: #222 !important; /* Dark gray background */
+      color: #ffffff !important;
+      padding: 1rem;
+      border-radius: 5px;
+      border: 1px solid #ffdd57; /* Yellow border for clearer distinction */
+      margin-top: 1rem !important;
+      margin-bottom: 1rem !important;
+  }
+
+  /* Additional color support for navigation menu and main content area */
+  .offcanvas-body {
+      background-color: #333 !important;
+      color: #eaeaea !important;
+  }
+}
